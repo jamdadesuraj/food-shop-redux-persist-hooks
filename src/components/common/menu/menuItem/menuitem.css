@@ -1,0 +1,49 @@
+.item {
+  width: 150px;
+  height: 240px;
+  padding: 0 0.8rem 0.8rem 0.8rem;
+  background-color: #eee;
+  border-radius: 30px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.item img {
+  margin-top: -3.5rem;
+  height: 130px;
+  object-fit: contain;
+}
+
+.item_food_desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item_head_desc p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.item_head_desc {
+  text-align: left;
+  flex: 1;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.head_desc_name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  flex: 1;
+}
+
+.head_desc_info {
+  font-size: 0.8rem;
+  color: #b31818a0;
+}
+.food_desc_price {
+  font-weight: 700;
+}

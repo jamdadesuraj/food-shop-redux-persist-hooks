@@ -1,0 +1,13 @@
+.logo {
+  min-width: fit-content;
+  /* position: fixed; */
+}
+
+.logo img {
+  width: 10rem;
+}
+
+.logo > div {
+  display: flex;
+  align-items: center;
+}
